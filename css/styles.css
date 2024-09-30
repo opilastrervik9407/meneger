@@ -64,11 +64,11 @@ body {
   text-decoration: none;
 }
 
-.contacts img{
+.nav_menu img{
   transition: all 1s ease; 
 }
 
-.contacts p:hover  img{
+.nav_menu p:hover  img{
   transform: scale(1.15);
 
 }
@@ -95,13 +95,13 @@ li:hover>a::before{
 
 
 
-.contacts {
+.nav_menu {
   display: flex;
   justify-content: right;
   align-items: flex-start;
 }
 
-.contacts span {
+.nav_menu span {
   font-size: 14px;
   line-height: 7px;
   color: #5a5a5a;
@@ -110,7 +110,7 @@ li:hover>a::before{
   text-align: right;
 }
 
-.contacts a {
+.nav_menu a {
   font-size: 14px;
   line-height: 7px;
   color: #5a5a5a;
@@ -138,10 +138,6 @@ li:hover>a::before{
   column-gap: 17px;
   align-items: flex-start;
 }
-
-
-
-
 
 .menu p {
   min-width: 300px;
