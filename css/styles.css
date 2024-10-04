@@ -52,6 +52,7 @@ body {
   transform: scale(1.15);
 }
 
+
 .football span {
   display: block;
   font-size: 24px;
@@ -64,21 +65,53 @@ body {
   text-decoration: none;
 }
 
-.nav_menu img{
+
+.my_number_cta{
+  font-size: 14px;
+  line-height: 7px;
+  color: #5a5a5a;
+  font-weight: bold;
+  font-family: "Arial";
+  text-align: right;
+  text-decoration: none;
+}
+
+
+.my_hrafik{
+  font-size: 14px;
+  line-height: 7px;
+  color: #5a5a5a;
+  font-weight: bold;
+  font-family: "Arial";
+  text-align: right;
+  text-decoration: none;
+}
+
+.contant{
+  align-items: center;
+}
+
+.item_menu img{
   transition: all 1s ease; 
 }
 
-.nav_menu p:hover  img{
+.item_menu:hover  img{
   transform: scale(1.15);
 
 }
 
-a{
+.navigation a{
   position: relative;
   text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #343434;
+  font-family: "Arial";
 }
 
-a:before{
+.navicaishon a:before{
   transition: all 1s ease;
   position: absolute;
   content:"";
@@ -89,19 +122,17 @@ a:before{
   left: 0;
 }
 
-li:hover>a::before{
+.navicaishon li:hover>a::before{
   width: 100%;
 }
 
-
-
-.nav_menu {
+.item_menu {
   display: flex;
   justify-content: right;
   align-items: flex-start;
 }
 
-.nav_menu span {
+.item_menu {
   font-size: 14px;
   line-height: 7px;
   color: #5a5a5a;
@@ -110,7 +141,7 @@ li:hover>a::before{
   text-align: right;
 }
 
-.nav_menu a {
+.item_menu a {
   font-size: 14px;
   line-height: 7px;
   color: #5a5a5a;
@@ -120,11 +151,11 @@ li:hover>a::before{
   transition: all 1s ease-out;
 }
 
-.menu ul{
+.nav_menu{
   padding-left: 19px;
 }
 
-.menu a {
+.nav_menu  {
   font-size: 14px;
   line-height: 30px;
   text-decoration: none;
