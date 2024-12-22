@@ -224,9 +224,20 @@ body {
   column-gap: 10px;
 }
 
+.contant :hover{
+  color: #39930d;
+  transition:all 0.5 ease;
+}
+
 ul {
   list-style: none;
   
+}
+
+.navigation :hover{
+  color: #39930d;
+  text-decoration: underline;
+  transition: all 0.2s ease;
 }
 
 .footer {
